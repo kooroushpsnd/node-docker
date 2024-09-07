@@ -9,6 +9,7 @@ services:
 
   node_app:
     build: .
+    image: kooroushpsnd/node-app
     env_file:
       - ./.env
     depends_on:
